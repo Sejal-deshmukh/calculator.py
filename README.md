@@ -1,3 +1,4 @@
+
 def calculator():
  
  c=int(input("ENTER TASK To PRINT \n1.ADDITION \n2.SUBSTRACTION \n3.MULTIPLICATION \n4.DIVION \n5.MODULOUS \n6.EXPONENTIAL\n"))
@@ -5,6 +6,7 @@ def calculator():
  b=int(input(" Enter second no. to calculate : "))
  print(a)
  print(b)
+ 
  match c:
      
     case 1: print("ADDITION =",a+b) 
